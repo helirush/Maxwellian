@@ -1,0 +1,66 @@
+# ═══════════════════════════════════════════════════════════
+# Unity Knowledge Base .gitignore
+# This directory will be shared to GitHub → Maxwellian.ai
+# Protects sensitive patterns from accidental exposure
+# ═══════════════════════════════════════════════════════════
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Sensitive content patterns (if accidentally placed in Unity/)
+**/customer_data/
+**/customers/
+**/private/
+**/confidential/
+**/*_private.*
+**/*_confidential.*
+
+# API keys and credentials (should never be here, but safety first)
+*.env
+*.key
+**/secrets/
+**/*_secret.*
+**/*_credential.*
+*_API_KEY*
+ANTHROPIC_API_KEY*
+*.pem
+*.p12
+*.pfx
+
+# Financial/customer specific documents
+**/contracts/
+**/invoices/
+**/quotes/
+**/*_contract.*
+**/*_invoice.*
+**/*_quote.*
+
+# Personal notes that might contain sensitive info
+**/personal_notes/
+**/*_personal.*
+*diary*
+*journal*
+
+# Local development/testing artifacts
+Memory/local/
+**/test_data/
+**/scratch/
+**/*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+*.backup
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
