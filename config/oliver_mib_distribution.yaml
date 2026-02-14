@@ -1,0 +1,15 @@
+from_name: "Oliver Heaviside"
+from_email: "oliver@unityenergy.com"
+# Default distribution list
+to:
+  - "mike@unityenergy.com"
+  - "tim@unityenergy.com"
+  - "luis@unityenergy.com"
+  - "dan@unityenergy.com"
+  - "bryan@unityenergy.com"
+cc:
+  - "steve@unityenergy.com"
+  - "joel@unityenergy.com"
+  - "connor@unityenergy.com"
+  - "adil@accentzinc.com"
+  - "delton.hyatt@gmail.com"
